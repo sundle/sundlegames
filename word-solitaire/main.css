@@ -51,7 +51,7 @@ h1 {
 
 /* Game grid */
 #game {
-	display: none;
+	visibility: hidden;
 }
 .grid-row {
 	display: flex;
