@@ -1,0 +1,182 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+body {
+	background-color: #111;
+	background-image: url("images/dark-rough-free-seamless.jpg");
+	background-repeat: repeat;
+	/*background-image: url("images/goofer-eUBp69MTaNU-unsplash-dark20.jpg");*/
+	/*background: linear-gradient(135deg, #050505, #151515);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;*/
+	color: #eee;
+	text-align: center;
+	height: 100%;
+}
+button[disabled] {
+	cursor: not-allowed;
+	box-shadow: none;
+}
+html {
+	/*height: 100%;*/ /* for full page bg image */
+}
+
+a.unstyled, a.unstyled:hover, a.unstyled:visited, a.unstyled:focus, a.unstyled:active  {
+  text-decoration: none;
+  color: inherit;
+  outline: 0;
+}
+div#title {
+    display: flex;
+    justify-content: center;
+}
+#title img {
+    width: 10vh;
+    height: 10vh;
+    margin-right: 1vh;
+}
+
+h1 {
+	font-size: 6.5vh;
+	text-shadow: 0 0 0.3em #1da9cc;
+}
+
+/* Game grid */
+#game {
+	display: none;
+}
+.grid-row {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+
+}
+.cell {
+	position: relative; /* make child nodes position relative to this parent */
+	margin: 1.5vh 0.8vh 1.5vh 0.8vh;
+	cursor: pointer;
+}
+.cell p {
+	color: #333;
+	font-size: 6vh;
+	background: url("images/white-square-128px2.png");
+	background-repeat: round;
+	width: 9.5vh;
+	height: 9.5vh;
+	text-shadow: 0 0 0.25em #888;
+	/*background: linear-gradient(0deg, #bbb, #fff);*/
+    /*box-shadow: 0 0 15px #fff;*/
+}
+
+button.letter {
+	width: 9.5vh;
+	height: 9.5vh;
+	padding: 0;
+	position: absolute;
+	display: inline;
+	color: #333;
+	text-shadow: 0 0 0.15em #555;
+	font-weight: 900;
+	cursor: pointer;
+	border: none;
+	left: 0px;
+	background-repeat: round;
+	font-size: 6.5vh;
+}
+.yellow-button {
+	background: url("images/yellow-square-128px3-optim.png");
+}
+.blue-button {
+	background: url("images/blue-square-128px3-optim.png");
+}
+.purple-button {
+	background: url("images/purple-square-128px3-optim.png");
+}
+.red-button {
+	background: url("images/red-square-128px3-optim.png");
+}
+button.selected {
+	/*background-blend-mode: darken;*/ /* doesn't work! */
+	filter: brightness(60%) !important;
+	color: #ccc;
+}
+
+#words-left {
+	display: inline;
+	margin: 2vh 0 2vh 0;
+	/*padding: 10px;*/
+	/*height: 1em;*/
+	color: #333;
+	font-size: 3vh;
+}
+
+.attempt-cell {
+	position: relative; /* make child nodes position relative to this parent */
+    margin: 0 0.4vh 0 0.4vh;
+}
+.attempt-cell p {
+	font-size: 7vh;
+	font-weight: 800;
+	font-family: monospace, monospace; /* written twice due to some strange bug, don't change! */
+	background: url("images/grey-square-128px2.png");
+	filter: drop-shadow(0px 0px 3px #ccc);
+	background-repeat: round;
+	width: 8.5vh;
+	height: 8.5vh;
+}
+#attempt-container {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	color: #e6e6e6;
+	text-shadow: 0 0 0.25em #ddd;
+	margin: 3vh 0 2vh 0;
+}
+#attempt-container.attempt-invalid {
+	color: #f43c3c;
+	text-shadow: 0 0 0.15em #f43c3c;
+}
+
+#game-buttons {
+	margin: 1vh 0 1vh 0;
+}
+#game-buttons button {
+	width: 10vh;
+	height: 10vh;
+	margin: 0 2vh 0 2vh;
+	cursor: pointer;
+	box-shadow: 0 0 15px #eee;
+	border: none;
+	border-radius: 50%;
+	font-size: 6vh;
+	text-shadow: 0 0 0.25em #222;
+	/*filter: blur(1px);*/
+}
+#game-buttons button:disabled {
+	background-color: #333;
+	box-shadow: none;
+	cursor: not-allowed;
+}
+
+#text-results-con {
+	font-size: 4vh;
+}
+#copy-results {
+	margin-top: 0.5vh;
+	font-size: 4vh;
+	display: none;
+	box-shadow: 0 0 15px #eee;
+	padding: 1vh;
+}
+
+#socmed {
+}
+#socmed img {
+	width: 5vh;
+	margin: 3vh 1vh 0 1vh;
+	filter: drop-shadow(0px 0px 5px #888);
+}
+

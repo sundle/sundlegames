@@ -1,1 +1,74 @@
-<h1>Word Solitaire</h1>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="main.css" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<title>Word Solitaire</title>
+</head>
+<body>
+<div id="title">
+<a href="https://www.sundlegames.com">
+<img src="images/sundlegames_alt_icon_round.png" />
+</a>
+<h1><a class="unstyled" href="https://www.sundlegames.com">Word Solitaire</a></h1>
+</div>
+<div id="game">
+<div id="text-results-con">
+<p id="text-results" name="story" rows="10" cols="40"></p>
+<button type="button" id="copy-results">copy</button>
+</div>
+<div>
+<h2 id="words-left"></h2>
+</div>
+<div id="game-buttons">
+<button id="clear" type="button" title="reset" disabled="true">&#8635;</button>
+<button id="back" type="button" title="back" disabled="true">&larr;</button>
+<button id="enter" type="button" title="enter" disabled="true">&crarr;</button>
+</div>
+<div id="grid">
+<div class="grid-row">
+<div class="cell"><p class="star">&starf;</p></div>
+<div class="cell"><p class="star">&starf;</p></div>
+<div class="cell"><p class="star">&starf;</p></div>
+<div class="cell"><p class="star">&starf;</p></div>
+</div>
+<div class="grid-row">
+<div class="cell"><p class="star">&starf;</p></div>
+<div class="cell"><p class="star">&starf;</p></div>
+<div class="cell"><p class="star">&starf;</p></div>
+<div class="cell"><p class="star">&starf;</p></div>
+</div>
+<div class="grid-row">
+<div class="cell"><p class="star">&starf;</p></div>
+<div class="cell"><p class="star">&starf;</p></div>
+<div class="cell"><p class="star">&starf;</p></div>
+<div class="cell"><p class="star">&starf;</p></div>
+</div>
+<div class="grid-row">
+<div class="cell"><p class="star">&starf;</p></div>
+<div class="cell"><p class="star">&starf;</p></div>
+<div class="cell"><p class="star">&starf;</p></div>
+<div class="cell"><p class="star">&starf;</p></div>
+</div>
+</div>
+<div id="attempt-container">
+<div class="attempt-cell"><p></p></div>
+<div class="attempt-cell"><p></p></div>
+<div class="attempt-cell"><p></p></div>
+<div class="attempt-cell"><p></p></div>
+<div class="attempt-cell"><p></p></div>
+</div>
+</div>
+<div id="socmed">
+<a href="https://sundle.itch.io/"><img src="images/itchio-logo-textless-white.svg" /></a>
+<a href="https://twitter.com/sundlegames"><img src="images/twitter-icon-white.svg" /></a>
+<a href="https://www.youtube.com/channel/UCqpQ35BqOlZ5JgybAjFHPKw"><img src="images/youtube_social_squircle_red.png" /></a>
+<a href="https://www.reddit.com/user/sundler/"><img src="images/reddit-icon-square.svg" /></a>
+</div>
+<script type="text/javascript" src="wordle-allowed-guesses-frequencies.js"></script>
+<script src="wordle-answers-alphabetical-frequencies.js" type="text/javascript"></script>
+<script type="text/javascript" src="ws.js"></script>
+</body>
+</html>
