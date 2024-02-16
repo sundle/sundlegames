@@ -1,5 +1,16 @@
-<h1>Sundle Games</h1>
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="main.css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<title>Sundle Games</title>
+</head>
+<body>
+	<div><h1>Sundle Games</h1></div>
 
-<a href="/word-solitaire/">Word Solitaire</a>
+	<a href="/word-solitaire/">Word Solitaire</a>
 
-<p>more stuff</p>
+</body>
+</html>
