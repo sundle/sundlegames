@@ -28,6 +28,7 @@ a.unstyled, a.unstyled:hover, a.unstyled:visited, a.unstyled:focus, a.unstyled:a
   text-decoration: none;
   color: inherit;
   outline: 0;
+  vertical-align: sub;
 }
 div#title {
     display: flex;
