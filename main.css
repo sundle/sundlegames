@@ -48,6 +48,7 @@ a.unstyled, a.unstyled:hover, a.unstyled:visited, a.unstyled:focus, a.unstyled:a
     margin-top: 2vh;
     grid-gap: 2vh;
     grid-template-columns: 25vh 25vh 25vh;
+    
 }
 .grid-item {
 }
