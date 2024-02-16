@@ -169,6 +169,10 @@ button.selected {
 	box-shadow: none;
 	cursor: not-allowed;
 }
+#game-buttons img {
+	height: 15vh;
+}
+
 
 #text-results-con {
 	font-size: 4vh;
