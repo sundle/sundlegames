@@ -65,6 +65,7 @@ h1 {
 }
 .cell img {
 	width: 9.5vh;
+	height: 9.5vh;	
 }
 /*
 .cell p {
@@ -75,8 +76,8 @@ h1 {
 	width: 9.5vh
 	height: 9.5vh;
 	text-shadow: 0 0 0.25em #888;
-	/*background: linear-gradient(0deg, #bbb, #fff);*/
-    /*box-shadow: 0 0 15px #fff;*/
+}
+*/
 
 
 button.letter {
