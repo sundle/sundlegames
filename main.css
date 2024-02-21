@@ -65,3 +65,10 @@ a.unstyled, a.unstyled:hover, a.unstyled:visited, a.unstyled:focus, a.unstyled:a
     margin: 0 1vh 0 1vh;
     filter: drop-shadow(0px 0px 5px #888);
 }
+
+
+
+footer {
+	margin-top: 10vh;
+	margin-bottom: 2vh;
+}
