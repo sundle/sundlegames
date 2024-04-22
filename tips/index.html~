@@ -4,6 +4,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link href="../main.css" rel="stylesheet">
+	<link href="../tips.css" rel="stylesheet">
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 	<title>Sundle Games</title>
 	<script src="js/matomo.js"></script>
@@ -27,7 +28,7 @@
 	<div id="tips">
 	<h2>3D Tips</h2>
 	<ul>
-	<li>Some 3D platformers used rigid bodies for the characters as kinematic bodies don't move through force, so they're infinitely strong as far as the physics engine is concerned.</li>
+	<li><a href="https://www.reddit.com/r/godot/comments/1ca8whm/finally_got_flexible_platforms_working_in_my_game/l0qhf3b/">Some 3D platformers used rigid bodies for the characters as kinematic bodies don't move through force, so they're infinitely strong as far as the physics engine is concerned.</a></li>
 	</div>
 
   <a id="wordsol" href="/word-solitaire/"><img src="images/word-sol-link-image.png" /></a>
