@@ -27,7 +27,7 @@
 	<div id="tips">
 	<h2>3D Tips</h2>
 	<ul>
-	<li>Some 3d platformers used rigid bodies for the characters as kinematic bodies don't move through force, so they're infinitely strong as far as the physics engine is concerned.</li>
+	<li>Some 3D platformers used rigid bodies for the characters as kinematic bodies don't move through force, so they're infinitely strong as far as the physics engine is concerned.</li>
 	</div>
 
   <a id="wordsol" href="/word-solitaire/"><img src="images/word-sol-link-image.png" /></a>
