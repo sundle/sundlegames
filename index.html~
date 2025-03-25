@@ -19,7 +19,7 @@
   </div>
   <div id="socmed">
     <a href="https://sundle.itch.io/"><img src="images/itchio-logo-textless-white.svg" /></a>
-    <a href="https://twitter.com/sundlegames"><img src="images/twitter-icon-white.svg" /></a>
+    <!-- <a href="https://twitter.com/sundlegames"><img src="images/twitter-icon-white.svg" /></a> -->
     <a href="https://www.youtube.com/channel/UCqpQ35BqOlZ5JgybAjFHPKw"><img src="images/youtube_social_squircle_red.png" /></a>
     <a href="https://www.reddit.com/user/sundler/"><img src="images/reddit-icon-square.svg" /></a>
   </div>
@@ -32,13 +32,26 @@
     
     <div id="showcase">
       <div class="grid-container">
+        <div class="grid-item"><a href="https://sundle.itch.io/rogue-secret-shadows"><img src="images/rogue-secret-shadows.png" /></a></div>
+        <div class="grid-item"><a href="https://sundle.itch.io/drone-tactics"><img src="images/drone-tactics.png" /></a></div>
+        <!-- <div class="grid-item"><a href="https://sundle.itch.io/dodgy-dungeon"><img src="images/dodgy-dungeon.png" /></a></div> -->
+        <div class="grid-item"><a href="https://sundle.itch.io/gift-grab"><img src="images/gift-grab.png" /></a></div>
+        <div class="grid-item"><a href="https://sundle.itch.io/calm-afore-ye-storm"><img src="images/calm-afore-ye-storm.png" /></a></div>
+        <div class="grid-item"><a href="https://sundle.itch.io/autoshot"><img src="images/autoshot.png" /></a></div>
+        <div class="grid-item"><a href="https://sundle.itch.io/serpentine"><img src="images/serpentine.png" /></a></div>
+        <div class="grid-item"><a href="https://sundle.itch.io/zombeez"><img src="images/zombeez.png" /></a></div>
+        <div class="grid-item"><a href="https://sundle.itch.io/zip-zap-zow"><img src="images/zip-zap-zow.png" /></a></div>
+        <!-- <div class="grid-item"><a href="https://sundle.itch.io/reversa"><img src="images/reversa.png" /></a></div> -->
+        <div class="grid-item"><a href="https://sundle.itch.io/swipe-stream"><img src="images/swipe-stream.png" /></a></div>
+        <div class="grid-item"><a href="https://sundle.itch.io/fish-flow"><img src="images/fish-flow.png" /></a></div>
+        <div class="grid-item"><a href="https://sundle.itch.io/the-forest-door"><img src="images/forest-door.png" /></a></div>
+        <div class="grid-item"><a href="https://sundle.itch.io/boom-boom-boom"><img src="images/boom-boom-boom.png" /></a></div>
         <div class="grid-item"><a href="https://sundle.itch.io/behind-the-red-door"><img src="images/behind-the-red-door.png" /></a></div>
         <div class="grid-item"><a href="https://sundle.itch.io/the-oddest-sea"><img src="images/the-oddest-sea.png" /></a></div>
-        <div class="grid-item"><a href="https://sundle.itch.io/get-out"><img src="images/get-out.png" /></a></div>
+        <!-- <div class="grid-item"><a href="https://sundle.itch.io/get-out"><img src="images/get-out.png" /></a></div> -->
         <div class="grid-item"><a href="https://sundle.itch.io/guardians-of-the-gem"><img src="images/guardians-of-the-gem.png" /></a></div>
         <div class="grid-item"><a href="https://sundle.itch.io/are-we-alone"><img src="images/are-we-alone.png" /></a></div>
         <div class="grid-item"><a href="https://sundle.itch.io/secondary"><img src="images/secondary.png" /></a></div>
-        <div class="grid-item"><a href="https://sundle.itch.io/rogzee"><img src="images/rogzee.png" /></a></div>
       </div>
       
     </div>
@@ -47,6 +60,6 @@
 
 
 
-  <footer> <small>&copy; 2024 Sundle Games.  All Rights Reserved.</small> </footer>
+  <footer> <small>&copy; 2025 Sundle Games.  All Rights Reserved.</small> </footer>
 </body>
 </html>

@@ -25,6 +25,7 @@ h2 {
 div#title {
     display: flex;
     justify-content: center;
+	margin-top: 2vh;
 }
 #title img {
     width: 10vh;
@@ -44,11 +45,15 @@ a.unstyled, a.unstyled:hover, a.unstyled:visited, a.unstyled:focus, a.unstyled:a
 }
 
 .grid-container {
-    display: inline-grid;
-    margin-top: 2vh;
-    grid-gap: 2vh;
-    grid-template-columns: 25vh 25vh 25vh;
+	margin-top: 2vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: middle;
+	justify-content: space-around;
     
+	
+
+
 }
 .grid-item {
 }
