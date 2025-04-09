@@ -6,7 +6,6 @@
 	<link href="../main.css" rel="stylesheet">
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 	<title>Sundle Games</title>
-	<script src="js/matomo.js"></script>
 </head>
 <body>
   
@@ -27,7 +26,7 @@
 	<div id="tips">
 	<h2>Tips</h2>
 	<ul>
-	<li class="hardware">- Should you buy a weak GPU for game development to ensure smooth play on low end computers?  Answer: Buy a CPU with an integrated GPU and also buy a decent dedicated GPU.  Develop your game using the dedicated GPU.  Then, when it comes to testing, switch to using just your integrated GPU to play the game.  This way you don't have to keep some old PC around just to test games out with.</li>
+	<li class="hardware">- Should you buy a weak GPU for game development to ensure smooth play on low end computers?  Answer: Buy a CPU with an integrated GPU and also buy a decent dedicated GPU.  Develop your game using the dedicated GPU.  Then, when it comes to testing, switch to using just your integrated GPU to play the game.  This way you don't have to keep some old PC around just to test games out on.</li>
 
 	<li class="3d platformer"><a href="https://www.reddit.com/r/godot/comments/1ca8whm/finally_got_flexible_platforms_working_in_my_game/l0qhf3b/">- Some 3D platformers used rigid bodies for the characters as kinematic bodies don't move through force, so they're infinitely strong as far as the physics engine is concerned.</a></li>
 	<li class="design"><a href="https://www.reddit.com/r/gamedev/comments/1cahnqz/is_there_a_way_to_balance_a_game_with_a_tight/l0rxqtw/">- On balancing difficulty and gameplay: Time, whether in seconds or number of expected attempts, is the player resource from the real world.  How long should each combat be? How much damage did you make the player's basic attack do? You can figure out enemy health based on that. How many hits should the ideal player take in a battle? How many extra hits do you want to let them take and still not succeed? That tells you player health/enemy damage.</a></li>
@@ -54,6 +53,6 @@
 
 
 
-  <footer> <small>&copy; 2024 Sundle Games.  All Rights Reserved.</small> </footer>
+  <footer> <small>&copy; 2025 Sundle Games.  All Rights Reserved.</small> </footer>
 </body>
 </html>
