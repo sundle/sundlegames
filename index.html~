@@ -6,7 +6,6 @@
 	<link href="main.css" rel="stylesheet">
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 	<title>Sundle Games</title>
-	<script src="js/matomo.js"></script>
 </head>
 <body>
   
